@@ -19,7 +19,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $body .= "Enquiry About: $enquiry\n";
     $body .= "Message: $message\n";
 
-    $to = 'info@M&M Renovation.com';
+    $to = 'mmc19832015@gmail.com';
     $headers = "From: $email\n";
     $headers .= "Reply-To: $email";
 
